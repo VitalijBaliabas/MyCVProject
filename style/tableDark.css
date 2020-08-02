@@ -1,0 +1,288 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+/*
+=============================
+head setings
+=============================
+*/
+a {
+  color: #f90;
+}
+a:hover {
+  color: #FF0;
+}
+table {
+  width: 100%;
+  border-spacing: 0;
+}
+thead {
+  background: #383838;
+}
+img {
+  width: 350px;
+  height: auto;
+  padding-top: 40px;
+  box-shadow: 0 18px 15px rgba(0,0,0,.3);
+}
+#img {
+  padding-left: 55px;
+  padding-right: 65px;
+  width: 100px;
+  background: #303030;
+}
+#head {
+  font-size: 80px;
+  padding: 50px 0 0 40px;
+  vertical-align: top;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #909090;
+  animation: text1 4s 1;
+}
+@keyframes text1 {
+  0%{
+    color: #383838;
+  }
+}
+h1 {
+  color: #f90;
+  text-transform: uppercase;
+  animation: text2 2s 1;
+}
+@keyframes text2 {
+  0%{
+    color: #383838;
+  }
+}
+h3 {
+  font-size: 20px;
+  padding: 10px;
+}
+h4 {
+  color: #B8B8B8;
+  line-height: 3;
+}
+h5 {
+  color: #f90;
+  padding-top: 50px;
+  border-top: 1px solid #f90;
+}
+h6 {
+  color: #fff;
+  padding-bottom: 60px;
+}
+#three {
+  padding-left: 30px;
+}
+#for td{
+  font-size: 20px;
+  padding-left: 40px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  color: #909090;
+  border-top: 1px solid rgba(255, 255, 255, .3);
+}
+/*
+=============================
+body settings
+=============================
+*/
+#five {
+  background: #383838;
+  text-align: right;
+  padding-right: 25px;
+  padding-top: 15px;
+  color: #909090;
+}
+#six {
+  background: #404040;
+  color: #A9A9A9;
+  text-indent: 20px;
+  padding: 15px 55px 15px 25px;
+  line-height: 1.5;
+  font-size: 20px;
+}
+#seven {
+  background: #404040;
+  color: #A9A9A9;
+  text-indent: 20px;
+  line-height: 1.5;
+  font-size: 20px;
+}
+/*
+=============================
+SKILLS settings
+=============================
+*/
+#a {
+  background: #404040;
+  text-align: right;
+  padding-right: 25px;
+  padding-top: 15px;
+  color: #909090;
+}
+#b {
+  background: #383838;
+  padding-right: 25px;
+  padding-top: 15px;
+  color: #909090;
+  list-style: none;
+  padding: 15px 55px 15px 25px;
+  font-size: 19px;
+}
+.bar {
+  display: block;
+  height: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 0 0 10px #f90;
+}
+.bar span {
+  height: 4px;
+  float: left;
+  background: #ff0;
+  padding: 10px 0 10px 0;
+}
+.html {
+  width: 90%;
+  animation: html 2s;
+}
+.css {
+  width: 65%;
+  animation: css 2s;
+}
+.java {
+  width: 80%;
+  animation: java 2s;
+}
+.photoshop {
+  width: 90%;
+  animation: photoshop 2s;
+}
+.LibreCAD {
+  width: 85%;
+  animation: LibreCAD 2s;
+}
+.SheetCAM {
+  width: 80%;
+  animation: SheetCAM 2s;
+}
+.Paint {
+  width: 99%;
+  animation: Paint 2s;
+}
+@keyframes html {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 90%;
+  }
+}
+@keyframes css {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 65%;
+  }
+}
+@keyframes java {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 80%;
+  }
+}
+@keyframes photoshop {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 90%;
+  }
+}
+@keyframes LibreCAD {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 85%;
+  }
+}
+@keyframes SheetCAM {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 80%;
+  }
+}
+@keyframes Paint {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 99%;
+  }
+}
+/*
+=============================
+foot settings
+=============================
+*/
+th {
+  text-align: right;
+  padding-right: 30px;
+  line-height: 2;
+  background: #282828;
+  border-top: 1px solid #f90;
+  border-right: 1px solid #f90;
+  animation: th 1s 320;
+}
+@keyframes th {
+  0%{
+    color: #282828;
+  }
+}
+tfoot td {
+  background: #282828;
+}
